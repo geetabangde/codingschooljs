@@ -75,12 +75,12 @@
 // }
 // myFunction();
 
-var a = 10;
+// var a = 10;
 
-function test() {
-  console.log(a);
-  var a = 20;
-}
+// function test() {
+//   console.log(a);
+//   var a = 20;
+// }
 
 // but javascript me hoisting hota hai, isliye var a = 20; ko function ke top pe le jata hai,
 // aur uski value undefined hoti hai.
@@ -91,7 +91,7 @@ function test() {
 // 👉 var hoist hota hai → value nahi
 // 👉 isliye undefined milta hai
 
-const obj = { name: "Geeta" };
+// const obj = { name: "Geeta" };
 
 obj.name = "Riya"; // riya print hoga, kyunki humne obj ke andar ki value change ki hai, na ki obj ka reference change kiya hai
 
@@ -106,15 +106,14 @@ console.log(obj.name);
 // 👉 const = box fixed hai
 // 👉 but box ke andar ka samaan change ho sakta hai
 
-console.log(a);
-var a = 10;
+// console.log(a);
+// var a = 10;
 
-function a() {}
+// function a() {}
 
-console.log(a);
+// console.log(a);
 
-
-✅ Correct Answer
+// ✅ Correct Answer
 // function a() {}
 // 10
 

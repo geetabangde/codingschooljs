@@ -11,21 +11,16 @@
 // console.log(b);
 // var b = 10; // undefined
 
-
-
 // console.log(c);
 // const c = 10; // ReferenceError: Cannot access 'c' before initialization
-
 
 // 🔥 Interview One-Liner
 
 // 👉 TDZ is the time between variable declaration and initialization
 // where accessing the variable throws a ReferenceError
 
-
 // 🔥 Quick Summary
 // TDZ → only let & const
 // access before initialization → ❌ error
 // var → no TDZ, gives undefined
 // block ke start se TDZ start hota hai
-
