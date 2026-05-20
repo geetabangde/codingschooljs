@@ -40,9 +40,15 @@ let newarray = arr.map(function (val) {
 console.log(newarray);
 
 
-Q7 . use .filter() to filter out all the numbers greater than 10
+// Q7 . use .filter() to filter out all the numbers greater than 10
 let arr = [2, 4, 8, 1];
 let newarray = arr.filter(function (val) {
   return val <= 10;
 });
 console.log(newarray);
+
+// Q8 . use .reduce() to find the product of all the numbers in the array
+let arr = [2, 4, 8, 1];
+let product = arr.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
+console.log(product);
+
